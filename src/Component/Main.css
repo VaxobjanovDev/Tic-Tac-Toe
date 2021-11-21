@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  margin: 10rem auto;
+}
+
+.header {
+  width: 20%;
+  margin: 3rem auto;
+  font-weight: 800;
+}
+
+.header h1 {
+  font-size: 5rem;
+}
+
+.square {
+  background-color: rgba(143, 172, 218, 0.965);
+  border: 10px solid #000000;
+  font-size: 5rem;
+  font-weight: 800;
+  cursor: pointer;
+  outline: none;
+}
+
+.board {
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+  border: 10px solid #000000;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  margin: 8rem auto;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
