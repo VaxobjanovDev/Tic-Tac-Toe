@@ -1,6 +1,6 @@
-# Dictionary
+# Tic Tac Toe
 
-You can see this simple app https://definitions-app.netlify.app
+You can see this simple app https://tic-tac-practise.netlify.app
 
 ## Available Scripts
 
